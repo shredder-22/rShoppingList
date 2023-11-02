@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -65,17 +66,22 @@ public class Fragment1 extends Fragment {
         View v = inflater.inflate(R.layout.fragment_1, container,false);
         editText = v.findViewById(R.id.et);
         btnadd = v.findViewById(R.id.add);
+
         btnadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String st = editText.toString();
+                String st = editText.getText().toString();
                 listner.onInput1Sent(st);
                 editText.setText("");
             }
         });
         return v;
     }
+    public void updateEditText()
+    {
 
+
+    }
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);

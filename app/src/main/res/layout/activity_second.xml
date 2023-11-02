@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Alright, so imagine this app, yeah? It's like the skibidi-doodle of shopping lists. Introducing SkibidiShop—where your grocery game gets a turbo boost! Picture this: you open the app, and bam, it's like a skibidi-explosion of categories. Avocado aisle? Skibidi-yes! Coffee corner? Double skibidi-yes! And when you've assembled your skibidi-squad of goodies, just hit the skibidi-checkout button. It's the app that turns your shopping into a full-on skibidi-party. Skibidi-hop onto the SkibidiShop train, my dude, 'cause the future of grocery lists is seriously skibidi-fantastic!🛒✨">
+
+    </TextView>
+
+</LinearLayout>
